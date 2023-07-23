@@ -1,0 +1,49 @@
+/* pages/grid.wxss */
+swiper {
+  height: 350rpx;
+}
+
+swiper image {
+  width: 100%;
+  height: 100%;
+}
+
+.grids {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grids .item {
+  width: 250rpx;
+  height: 250rpx;
+  border-right: 1rpx solid #eee;
+  border-bottom: 1rpx solid #eee;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grids .item:nth-child(3) {
+  border-right: 0;
+}
+
+.grids .item:nth-child(6) {
+  border-right: 0;
+}
+
+.grids .item:nth-child(9) {
+  border-right: 0;
+}
+
+.grids .item image {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.grids .item text {
+  columns: #999;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
